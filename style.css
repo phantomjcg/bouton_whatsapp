@@ -1,0 +1,40 @@
+
+/* 1ère possibilité ajout Whatsapp Button Rigth*/
+
+.dmkt-whatsapp-button{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+}
+.dmkt-whatsapp-button .fa-whatsapp:before {
+    color:#fff;
+    border-radius:50%;
+    font-size:30px;
+    background-color: #25D366;
+    padding: 15px;
+}
+.dmkt-whatsapp-button:hover{
+    opacity: 0.8;
+}
+
+/* 2ème possibilité ajout Whatsapp Button Left*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left: 40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
